@@ -38,3 +38,12 @@ Sorting 500 integers 20 times:
  |   MIN   |   MEAN   |    MAX   |
 >|   6387  |   6496   |    6600  |<
 ```
+
+Afin d'utiliser le visu en python (fait par un autre eleve de 42) il faut installer python, puis utiliser la commande suivante :
+```
+python3 pyviz.py `ruby -e "puts (0..500).to_a.shuffle.join(' ')"`
+```
+
+Et modifier en consequence les nombres entre parenthese
+
+Afin d'utiliser mon visu (plus basique) il faut appeler push_swap avec l'argument `-a`
